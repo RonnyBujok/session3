@@ -88,7 +88,7 @@ for image in stimuli['image_file']:
 # Here we randomly permute the stimuli
 images = np.random.permutation(images)
 
-# This is a very simple reaction-time experiment, that simply asks you to 
+# This is a very simple reaction-time experiment, that simply asks you to
 #   respond as quickly as possible after an image has been presented.
 # It's simply a mock experiment to show you how it works.
 clock = core.Clock()  # Start an overall experiment clock
